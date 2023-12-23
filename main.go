@@ -1,7 +1,7 @@
 package main
 
-import "go-bolaget/lib"
+import "go-bolaget/cmd/cli"
 
 func main() {
-	lib.SystembolagetApi("qwe")
+	cli.RunCLI()
 }
